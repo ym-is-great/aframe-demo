@@ -11,7 +11,8 @@ const router = new VueRouter({
     { path: '/', component: () => import('@/views/Index') },
     { path: '/hello-world', component: () => import('@/views/HelloWorld') },
     { path: '/panorama', component: () => import('@/views/Panorama') },
-    { path: '/demo', component: () => import('@/views/Demo') }
+    { path: '/demo', component: () => import('@/views/Demo') },
+    { path: '/device-motion', component: () => import('@/views/DeviceMotion') }
   ]
 })
 

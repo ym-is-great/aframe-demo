@@ -16,7 +16,8 @@ export default {
       list: [
         { label: 'HelloWorld', path: '/hello-world'  },
         { label: 'Panorama', path: '/panorama' },
-        { label: 'Demo', path: '/demo' }
+        { label: 'Demo', path: '/demo' },
+        { label: 'DeviceMotion', path: '/device-motion' }
       ]
     }
   }
